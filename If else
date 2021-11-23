@@ -1,0 +1,17 @@
+package main 
+
+import (
+   "fmt"
+)
+
+func main() {
+
+   num := 2
+   if num ==1 {
+      fmt.println("one")
+   } else if num == 2 {
+      fmt.println("two")
+   } else {
+      fmt.println("none")
+   }
+}
