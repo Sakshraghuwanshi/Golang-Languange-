@@ -1,0 +1,12 @@
+import(
+    "fmt"
+    "math"
+)
+
+func main() {
+     var num float64 12
+     
+     var result = math.sqrt(num)
+     
+     fmt.Printf("the output is %.2f thankyou", result)
+}
